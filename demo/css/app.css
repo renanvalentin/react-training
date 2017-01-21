@@ -1,39 +1,39 @@
-.field
-{
-    margin:15px;
-    background-color:black;
-    font-weight:bold;
-    color:white;
-}
-.field2
-{
-    margin-left:250px;
-    font-weight:bold;
+body {
+    background-color: #333;
 
-}
-.field3
-{
-    margin:15px;
-    font-weight:bold;
-
-}
-.alert
-{
-    background-color:red;
+    color: white;
 }
 
-.title
-{
-    background-color:black;
-    font-size:20px;
-    font-weight:bold;
-    color:red;
+.field {
+    margin: 15px;
+    font-weight: bold;
 }
 
-.but
-{
-    background-color:cyan;
-    font-weight:bold;
-    border-color:red;
-    padding:10px 20px;
+.field2 {
+    margin-left: 275px;
+    font-weight: bold;
+}
+
+.field3 {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.alert {
+    background-color: red;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #40e475;
+}
+
+.btn {
+    background-color: #02afaf;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
 }
