@@ -1,0 +1,10 @@
+.Home {
+  height: 250px;
+  padding: 20px;
+
+  position: relative;
+
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(https://goo.gl/osWX1K), repeating-linear-gradient(-45deg, #FDEECD, #FDEECD 50px, #ffc6a9 50px, #ffc6a9 100px);
+  background-size: 180px 180px, 180px 180px, cover;
+  background-repeat: repeat-x, repeat-x, repeat;
+}

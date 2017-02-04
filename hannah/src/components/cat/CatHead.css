@@ -1,0 +1,6 @@
+.CatHead {
+  width: 135px;
+  height: 100px;
+  position: relative;
+  background: repeating-linear-gradient( 45deg, #ff9d00, #ff9d00 10px, #ffe9c6 10px, #ffe9c6 20px);
+}

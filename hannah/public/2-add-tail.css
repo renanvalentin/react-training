@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.cat {
+    width: 270px;
+
+    position: relative;
+}
+
+.cat__head {
+    width: 135px;
+    height: 100px;
+
+    position: relative;
+
+    background: repeating-linear-gradient( 45deg, #ff9d00, #ff9d00 10px, #ffe9c6 10px, #ffe9c6 20px);
+}
+
+.cat__eyes {
+    font-size: 80px;
+}
+
+.cat__mouth {
+    font-size: 80px;
+}
+
+.cat__eyes--align {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+.cat__mouth--align {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+
+.cat__legs {
+    position: relative;
+    height: 3px;
+}
+
+.cat__leg {
+    width: 15px;
+    height: 100%;
+
+    background: #333;
+}
+
+.cat__leg--left,
+.cat__leg--right{
+    position: absolute;
+
+    bottom: 0;
+}
+
+.cat__leg--left {
+    left: 20px;
+}
+
+.cat__leg--right {
+    left: 100px;
+}
+
+.cat__tail {
+    display: flex;
+
+    position: relative;
+}
+
+.cat__tail__draw {
+    position: relative;
+    top: -13px;
+
+    font-family: Arial;
+    font-size: 30px;
+}

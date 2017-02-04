@@ -1,0 +1,6 @@
+.TextBox {
+    height: 40px;
+
+    border: 4px dashed #33E46D;
+    border-radius: 3px;
+}

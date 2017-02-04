@@ -1,0 +1,18 @@
+.Cat {
+    width: 270px;
+
+    margin-top: 80px;
+
+    position: relative;
+}
+
+.Cat:before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 6px;
+    width: 156px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 100%;
+}

@@ -1,0 +1,9 @@
+.CatEyes {
+  font-size: 80px;
+}
+
+.CatEyes--align {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+}

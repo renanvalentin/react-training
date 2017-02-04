@@ -1,0 +1,9 @@
+.CatMouth {
+  font-size: 80px;
+}
+
+.CatMouth--align {
+  position: absolute;
+  top: 20px;
+  right: -5px;
+}

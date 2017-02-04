@@ -1,0 +1,11 @@
+.CatTail {
+  display: flex;
+  position: relative;
+}
+
+.CatTail__draw {
+  position: relative;
+  top: -13px;
+  font-family: Arial;
+  font-size: 30px;
+}

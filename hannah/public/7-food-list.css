@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+.cat {
+    width: 270px;
+
+    margin-top: 80px;
+
+    position: relative;
+}
+
+.cat:before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 6px;
+    width: 156px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 100%;
+}
+
+.cat__head {
+    width: 135px;
+    height: 100px;
+    position: relative;
+    background: repeating-linear-gradient( 45deg, #ff9d00, #ff9d00 10px, #ffe9c6 10px, #ffe9c6 20px);
+}
+
+.cat__eyes {
+    font-size: 80px;
+}
+
+.cat__mouth {
+    font-size: 80px;
+}
+
+.cat__eyes--align {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+.cat__mouth--align {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+
+.cat__legs {
+    position: relative;
+    height: 3px;
+}
+
+.cat__leg {
+    width: 15px;
+    height: 100%;
+    background: #333;
+}
+
+.cat__leg--left,
+.cat__leg--right {
+    position: absolute;
+    bottom: 0;
+}
+
+.cat__leg--left {
+    left: 20px;
+}
+
+.cat__leg--right {
+    left: 100px;
+}
+
+.cat__tail {
+    display: flex;
+    position: relative;
+}
+
+.cat__tail__draw {
+    position: relative;
+    top: -13px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.cat__rpg {
+    margin-top: 88px;
+    margin-left: 90px;
+    position: relative;
+}
+
+.cat__rpg__weapon {
+    width: 126px;
+    height: 497px;
+    position: absolute;
+    top: -271px;
+    left: 6px;
+    z-index: 1;
+    background-image: url(https://goo.gl/mOufuM);
+    background-position: -194px;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    transform: rotateZ(90deg) scale(.66);
+}
+
+.cat__poop {
+    position: relative;
+}
+
+.cat__poop__icon {
+    position: absolute;
+    opacity: 0;
+}
+
+.cat__poop_icon--animate {
+    animation: poop 2s linear;
+}
+
+@keyframes poop {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
+.home {
+    height: 250px;
+    padding: 20px;
+
+    position: relative;
+
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(https://goo.gl/osWX1K), repeating-linear-gradient(-45deg, #FDEECD, #FDEECD 50px, #ffc6a9 50px, #ffc6a9 100px);
+    background-size: 180px 180px, 180px 180px, cover;
+    background-repeat: repeat-x, repeat-x, repeat;
+}
+
+.food {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+input {
+    height: 40px;
+
+    border: 4px dashed #33E46D;
+    border-radius: 3px;
+}
+
+button {
+    height: 40px;
+    padding: 0 20px;
+
+    background: #33A7E4;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    color: white;
+}
+
+#poop-factory {
+    width: 100%;
+    padding: 0;
+}
+
+#poop-factory li {
+    padding: 5px 20px;
+
+    background: #FF5039;
+
+    border: 1px dashed white;
+
+    color: white;
+
+    list-style: none;
+}

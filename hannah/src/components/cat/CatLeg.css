@@ -1,0 +1,19 @@
+.CatLeg {
+  width: 15px;
+  height: 100%;
+  background: #333;
+}
+
+.CatLeg--left,
+.CatLeg--right {
+  position: absolute;
+  bottom: 0;
+}
+
+.CatLeg--left {
+  left: 20px;
+}
+
+.CatLeg--right {
+  left: 100px;
+}
