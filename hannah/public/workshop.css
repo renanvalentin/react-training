@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+.cat {
+    width: 270px;
+
+    position: relative;
+}
+
+.cat__head {
+    width: 135px;
+    height: 100px;
+
+    position: relative;
+
+    background: repeating-linear-gradient(45deg, #ff9d00, #ff9d00 10px, #ffe9c6 10px, #ffe9c6 20px);
+}
+
+.cat__eyes {
+    font-size: 80px;
+}
+
+.cat__mouth {
+    font-size: 80px;
+}
+
+.cat__eyes--align {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+.cat__mouth--align {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+}
+
+.cat__legs {
+    position: relative;
+    height: 3px;
+}
+
+.cat__leg {
+    width: 15px;
+    height: 100%;
+
+    background: #333;
+}
+
+.cat__leg--left,
+.cat__leg--right {
+    position: absolute;
+
+    bottom: 0;
+}
+
+.cat__leg--left {
+    left: 20px;
+}
+
+.cat__leg--right {
+    left: 100px;
+}
+
+.cat__tail {
+    display: flex;
+
+    position: relative;
+}
+
+.cat__tail__draw {
+    position: relative;
+    top: -13px;
+
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.home {
+    height: 250px;
+    padding: 20px;
+
+    position: relative;
+
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(https://goo.gl/osWX1K), repeating-linear-gradient(-45deg, #FDEECD, #FDEECD 50px, #ffc6a9 50px, #ffc6a9 100px);
+    background-size: 180px 180px, 180px 180px, cover;
+    background-repeat: repeat-x, repeat-x, repeat;
+}
+
+.foods {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.textbox {
+    height: 40px;
+
+    border: 4px dashed #33E46D;
+    border-radius: 3px;
+}
+
+.button {
+    height: 40px;
+    padding: 0 20px;
+
+    background: #33A7E4;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    color: white;
+}
+
+.cat__poop {
+    position: relative;
+}
+
+.cat__poop__icon {
+    position: absolute;
+    opacity: 0;
+}
+
+.cat__poop__icon--animate {
+    animation: poop 2s linear;
+}
+
+@keyframes poop {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}

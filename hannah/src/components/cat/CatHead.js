@@ -3,14 +3,15 @@ import './CatHead.css';
 
 function CatHead(props) {
     return (
-        <div className="CatHead">
+        <div className="CatHead" style={{background: props.texture}}>
             {props.children}
         </div>
     );
 }
 
 CatHead.propTypes = {
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    texture: PropTypes.string
 };
 
 export default CatHead;
