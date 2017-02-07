@@ -1,10 +1,10 @@
 import React, {Component, PropTypes} from 'react';
-import './CatTail.css';
+import classes from './CatTail.css';
 
 function CatTail(props) {
     return (
-        <div className="CatTail">
-            <div className="CatTail__draw">Z</div>
+        <div className={classes.CatTail}>
+            <div className={classes['CatTail__draw']}>Z</div>
             <div>
                 {props.children}
             </div>

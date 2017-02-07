@@ -1,9 +1,9 @@
-.CatTail {
+:local(.CatTail) {
   display: flex;
   position: relative;
 }
 
-.CatTail__draw {
+:local(.CatTail__draw) {
   position: relative;
   top: -13px;
   font-family: Arial;

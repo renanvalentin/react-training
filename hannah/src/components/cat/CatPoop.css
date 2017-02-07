@@ -1,0 +1,25 @@
+.CatPoop {
+    position: relative;
+}
+
+.CatPoop__icon {
+    position: absolute;
+    opacity: 0;
+}
+
+.CatPoop__icon--animate {
+    animation: poop 2s linear;
+}
+
+@keyframes poop {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
